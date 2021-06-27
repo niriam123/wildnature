@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-size:13px;
+    color:black;
+    width:100%;
+    max-width: 1300px;
+    font-family: 'Montserrat';
+    margin:0 auto;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+img{
+    max-width: 100%;
+}
+.wrapper{
+    max-width: 1215px;
+    width:100%;
+    margin:0 auto;
+}
+.wrapper1{
+    max-width: 800px;
+    width:100%;
+    margin:0 auto;
+}
+/* ************ header top ************ */
+header .header-top{
+    height:36px;
+    line-height: 36px;
+    vertical-align: middle;
+    background-color: #f8f9fa;
+    width: 100%;
+    text-align: right;
+}
+header .header-top ul{
+    margin:0;
+    padding:0;
+}
+header .header-top ul li{
+    display: inline;
+    margin-right:12px;
+}
+header .header-top ul li a{
+    text-decoration: none;
+    color: #747373;
+    font-size:20px;
+}
+header .header-top ul li a i{
+    width:20px;
+    margin-right:10px;
+}
+/* ************ header top end ************ */
+header .header-middle{
+    height:96px;
+    line-height: 96px;
+    vertical-align: middle;
+    clear: both;
+    overflow: hidden;
+}
+/* ************ header middle start ************ */
+header .header-middle .logo{
+    float:left;
+    margin: 5px 0;
+}
+header .header-middle .logo img{
+    width: 215px;
+}
+header .header-middle .contact-info{
+    float: right;
+}
+header .header-middle .contact-info ul{
+    margin:0;
+    padding:0;
+}
+header .header-middle .contact-info ul li{
+    display: inline;
+    margin-right:18px;
+}
+header .header-middle .contact-info ul li:last-child{
+    margin-right:0;
+}
+header .header-middle .contact-info ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #6eb43f;
+}
+
+header .header-middle .contact-info ul li a img{
+    width:22px;
+    margin-right:5px;
+}
+ button{
+    padding: 15px 28px;
+    background-color: #6eb43f;
+    color: white;
+    border:1px solid #6eb43f;
+    border-radius: 50px;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #fff;
+    color:#6eb43f;
+    transition: ease-in-out 0.5s;
+    border:1px solid #6eb43f;
+}
+/* ************ header middle end ************ */
+
+/* ************ header bottom start ************ */
+.header-bottom{
+    height: 54px;
+    line-height: 54px;
+    margin:0 auto;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+.header-bottom nav ul{
+    margin:0;
+    padding:0;
+}
+.header-bottom nav ul li{
+    display: inline;
+    margin-right:70px;
+}
+.header-bottom nav ul li:last-child{
+    margin-right:0;
+}
+.header-bottom nav ul li a{
+    text-decoration: none;
+    font-size:18px;
+    color:#5f6062;
+    font-weight: 500;
+}
+.header-bottom nav ul li a:hover{
+    color:#6eb43f;
+    transition: ease-in-out 0.5s;
+}
+.header-bottom nav ul li a.active{
+    color: #6eb43f;
+}
+.header-bottom nav.scrollmenu {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .header-bottom nav.scrollmenu a {
+    display: inline-block;
+    /* color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none; */
+  }
+  
+  .header-bottom nav.scrollmenu a:hover {
+    color: #6eb43f;
+  }
+/* ************ header bottom end ************ */
+/****************** header end ************* */
+
+/* ************ all green main part start ************* */
+main{
+    background:linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/mainbg.png)  no-repeat center top;
+    height:482px;
+    width:100%;
+    position: relative;
+    clear: both;
+}
+main .allgreen-maininfo{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+main .allgreen-maininfo h1{
+    font-size:45px;
+    color:white;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 35px;
+}
+main .allgreen-maininfo h4{
+    font-size:30px;
+    color:white;
+    margin-bottom: 24px;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+/* ************** insect part start ************** */
+#insectpart{
+    margin:55px 0 40px;
+    background-color: white;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+}
+#insectpart h2{
+    font-size:32px;
+    font-weight: 600;
+    color: #5f6062;
+    text-align: center;
+    line-height: 32px; 
+    margin-bottom: 55px;
+}
+#insectpart h2 span{
+    color:#6eb43f;
+}
+#insectpart h2 img{
+    margin-top: 20px;
+}
+#insectpart .insect-info{
+    margin-bottom: 35px;
+}
+#insectpart .insect-info-1{
+    margin-bottom: 70px !important;
+}
+#insectpart .insect-info-list{
+    text-align: center;
+    margin:0 auto;
+    border:1px solid white;
+}
+#insectpart .insect-info-list:hover{
+    border:1px solid #6eb43f;
+    transition: ease-in 0.5s;
+}
+#insectpart .insect-info-list img{
+    margin-bottom: 20px;
+    height: 80px;
+}
+#insectpart .insect-info-list h6{
+    font-size: 25px;
+    font-weight: 600;
+    color:#5f6062;
+    margin-bottom: 0;
+}
+/* ************** insect part end ************** */
+/* ************** garden worker part start ************** */
+#garden-worker{
+    clear: both;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 50px 0 43px;
+    text-align: center;
+}
+#garden-worker h2{
+    font-size: 32px;
+    font-weight: 600;
+    color:#5f6062;
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+#garden-worker h2 span{
+    color:#6eb43f;
+}
+#garden-worker .line{
+    margin-bottom: 22px;
+}
+#garden-worker h5{
+    font-size: 18px;
+    font-weight: 400;
+    color:#3c3c3c;
+    margin-bottom: 30px;
+}
+#garden-worker .worker-info{
+    margin-top: 46px;
+}
+#garden-worker .worker-info h4{
+    font-size: 22px;
+    color:#5f6062;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#garden-worker .worker-info p{
+    color: #3c3c3c;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+/* ************** garden worker part end************** */
+/* ************** footer start ************** */
+footer{
+    clear:both;
+    overflow: hidden;
+    background-color: #494848;
+    height: 170px;
+    line-height: 170px;
+    vertical-align: middle;
+    padding: 50px 80px 60px;
+}
+footer .footer-leftpart h1{
+    font-size: 32px;
+    font-weight: 400;
+    color:white;
+    margin-bottom: 0;
+}
+footer .footer-leftpart h1 span{
+    font-size: 38px;
+    font-weight: 600;
+}
+footer .footer-leftpart, footer .footer-rightpart{
+    padding: 0;
+}
+footer .footer-righttpart{
+    float: right;
+}
+footer .footer-rightpart .input-group{
+    margin-top: 7px;
+}
+footer .footer-rightpart input{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-indent: 15px;
+    color: #696969;
+    font-size: 18px;
+    margin-left: 60px;
+}
+footer .footer-rightpart button{
+    border-radius: 50px;
+    background-color: #6eb43f;
+    color:white;
+    left:-25px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 35px;
+}
+footer .footer-rightpart button:hover{
+    color:#6eb43f;
+    transition: ease-in-out 0.5s;
+    border:1px solid #6eb43f;
+    background-color: white;
+}
+/* ************ Footer end *************** */
+
+/* *************** responsive **************** */
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:992px){
+    /* *********** all green maininfo ********** */
+    main .allgreen-maininfo h1{
+        font-size: 40px;
+    }
+    main .allgreen-maininfo h4{
+        font-size: 25px;
+    }
+    /* *********** footer part ******** */
+    footer .footer-leftpart h1{
+        font-size: 28px;
+    }
+    footer .footer-leftpart h1 span{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+     /* ******* header top section ********* */
+    header .header-top{
+        text-align: center;
+    }
+     /* ******* header middle section ********* */
+    header .header-middle .contact-info{
+        display: none;
+    }
+    /* ***** header bottom section **** */
+    .header-bottom nav ul li{
+        margin-right: 40px;
+    }
+    /* *********** all green maininfo ********** */
+    main{
+        height:350px;
+    }
+    main .allgreen-maininfo h1{
+        font-size: 35px;
+    }
+    main .allgreen-maininfo h4{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* ********** insect part ******** */
+    #insectpart{
+        margin: 30px 0;
+    }
+    #insectpart h2{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    #insectpart .insect-info{
+        --bs-gutter-x: 0;
+    }
+    #insectpart .insect-info-list{
+        margin: 0 auto 20px;
+    }
+    #insectpart .insect-info-list img{
+        height: 70px;
+        margin-bottom: 10px;
+    }
+    #insectpart .insect-info-list h6{
+        font-size: 18px;
+    }
+    #insectpart .insect-info-1{
+        margin-bottom: 20px !important;
+    }
+    /* ********** garden part *********** */
+    #garden-worker{
+        padding: 30px 0 15px;
+    }
+    #garden-worker h5{
+        font-size: 16px;
+    }
+    #garden-worker .garden-worker-detail{
+        margin-bottom: 20px;
+    }
+    #garden-worker .worker-info{
+        margin-top: 25px;
+    }
+    #garden-worker .worker-info h4{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    #garden-worker .worker-info p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    /* ********footer ************ */
+    footer{
+        height: auto;
+    }
+    footer .footer-leftpart h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    footer .footer-leftpart h1 span{
+        font-size: 28px;
+    }
+    footer .footer-rightpart button{
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+}
+
+@media screen and (max-width:560px){
+    /* ******* header top section ********* */
+    header .header-top{
+        text-align: center;
+    }
+    header .header-top ul li a{
+        font-size: 14px;
+    }
+    /* ********* header middle section ***** */
+    header .header-middle{
+        height: 70px;
+        line-height: 70px;
+    }
+    header .header-middle .logo img{
+        width:150px;
+    }
+    /* ***** header bottom section ****** */
+    .header-bottom nav ul li a{
+        font-size: 15px;
+    }
+    .header-bottom nav ul li{
+        margin-right: 20px;
+    }
+    /* ******** main section ***** */
+    main {
+        height: 250px;
+    }
+    main .allgreen-maininfo h1 {
+        font-size: 23px;
+        margin-bottom: 5px;
+        line-height: 30px;
+    }
+    main .allgreen-maininfo h4 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    main .allgreen-maininfo h4 span{
+        display: none;
+    }
+    main .allgreen-maininfo button {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+
+    /* ********** footer ****** */
+    footer{
+        padding: 15px 20px;
+    }
+    footer .footer-leftpart h1{
+        font-size: 18px;
+    }
+    footer .footer-leftpart h1 span{
+        font-size: 20px;
+    }
+    footer .footer-rightpart input{
+        margin-left:0;
+        font-size: 15px;
+    }
+    footer .footer-rightpart button{
+        font-size: 13px;
+    }
+}
